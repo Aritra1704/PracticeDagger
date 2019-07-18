@@ -17,4 +17,5 @@ public interface AppComponent {
 
     AppPreference preferences();
     Vehicle vehicle();
+    NetworkComponent plus(RetrofitModule retrofitModule); //getNetwork(RetrofitModule retrofitModule);
 }
